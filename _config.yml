@@ -9,14 +9,15 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
-author :
+title : Hiden World - 鲜血 火焰 暴风
+tagline: 这是个毛子
+author : 
   name : Jimmy Park
   email : null
   github : https://github.com/piaoxijun
-  twitter : null  那是山水画
+  twitter : null
   feedburner : feedname
+  weibo : 那是山水画
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -73,26 +74,31 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  about_path : /about.html
+  #atom_path : /atom.xml
+  #rss_path : /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-    provider : disqus
-    disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+  
+  #-----
+  #comments :
+  #  provider : disqus
+  # disqus :
+  #    short_name : jekyllbootstrap
+  #  livefyre :
+  #    site_id : 123
+  # intensedebate :
+  #    account : 123abc
+  #  facebook :
+  #    appid : 123
+  #    num_posts: 5
+  #   width: 580
+  #   colorscheme: light
+  #----- 
+   
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.

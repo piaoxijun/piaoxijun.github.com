@@ -1,0 +1,16 @@
+---
+layout: page
+title: Hello World! 你好，世界！
+---
+{% include JB/setup %}
+
+<li><a href="{{ BASE_PATH }}/index_b/">index_b</a></li>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  
+</ul>
+
+##HELPS TO HELP
+	title : My Blog = 鲜血与火焰
