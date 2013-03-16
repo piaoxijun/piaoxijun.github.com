@@ -1,3 +1,12 @@
+---
+layout: page
+title: Markdown编辑范例
+tagline: 看code
+---
+{% include JB/setup %}
+
+
+
 标题
 ---------------
 ### this is a level-3 header ### 
